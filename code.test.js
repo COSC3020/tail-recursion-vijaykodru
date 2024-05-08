@@ -13,5 +13,5 @@ assert(tailrecursiveFIB(5) == 5);
 assert(tailrecursiveFIB(7) == 13);
 assert(tailrecursiveFIB(9) == 34);
 assert(tailrecursiveFIB(10) == 55);
-assert(tailrecursiveFIB(15) == 987);
-assert(tailrecursiveFIB(25) == 121393);
+assert(tailrecursiveFIB(15) == 610);
+assert(tailrecursiveFIB(25) == 75025);
