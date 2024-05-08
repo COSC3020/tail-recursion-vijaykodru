@@ -21,4 +21,11 @@ non-tail-recursive version? Why, or why not, and what is the complexity
 markdown file.
 
 
-The asymptotic time complexity for both tail recursive fibonacci and non tail recursive version is same $\Theta(n)$. This is because both of them do one step at a time in creating the next fibonacci number using the previous two elements of the array. This linear implementation of the code makes the recursive do the same but doing it at the end of the fucntion by calling the function itself as the return value.  
+The asymptotic time complexity for both tail recursive fibonacci and non tail recursive version is same $\Theta(n)$. This is because both of them do one step at a time in creating the next fibonacci number using the previous two elements of the array. This linear implementation of the code makes the recursive do the same but doing it at the end of the fucntion by calling the function itself as the return value. 
+
+References:
+tail-recursion-Dhruv8806
+
+https://www.geeksforgeeks.org/tail-recursion-fibonacci/
+
+Functional programming class I took back in Fall 2023 helped me mostly with this as I had a pretty good understanding from the class.
